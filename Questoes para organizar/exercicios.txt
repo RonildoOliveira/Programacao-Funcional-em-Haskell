@@ -1,0 +1,10 @@
+Escreva uma função para encontrar o menor de 3 números usando a função menor2
+menor3:: Ord a => a -> a -> a -> a
+menor3 3 4 5 == 3
+Escreva uma função para descobrir se um número é primo usando a função divisores n
+primo:: Int -> Bool 
+primo 13 == True
+primo 10 == False
+Escreva uma função para encontrar o máximo divisor comum usando a função divisoresComum
+mdc:: Int -> Int -> Int
+mdc 10 15  == 5
